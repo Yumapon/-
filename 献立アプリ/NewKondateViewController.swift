@@ -20,6 +20,4 @@ class NewKondateViewController: UIViewController {
     @IBAction func deciKondateBottun(_ sender: Any) {
         performSegue(withIdentifier: "toConfirmKondate", sender: nil)
     }
-    
-    //Githubテスト用
 }
